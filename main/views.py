@@ -45,8 +45,7 @@ def stock_view(request):
             if rsi11 >80:
                 d[i].append(stock_code)
                 i=i+1
-                if i==1:
-                    break
+
         except:
             print(" ")
 
